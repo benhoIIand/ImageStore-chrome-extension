@@ -16,7 +16,7 @@ function saveOptions() {
 
 function restoreOptions() {
     chrome.storage.sync.get(function(items) {
-        document.getElementById('uploadUrl').value = items.uploadUrl;
+        document.getElementById('uploadUrl').value = items.uploadUrl || '';
     });
 }
 

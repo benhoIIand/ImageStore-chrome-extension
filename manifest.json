@@ -3,7 +3,7 @@
 
     "name": "ImageStore",
     "description": "Upload images to a HTTP GET endpoint (i.e. Imgur API)",
-    "version": "0.1",
+    "version": "0.1.1",
     "minimum_chrome_version": "20",
 
     "icons": {
