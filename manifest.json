@@ -2,13 +2,14 @@
     "manifest_version": 2,
 
     "name": "ImageStore",
-    "description": "Upload gifs (and other images) to a HTTP GET endpoint (i.e. Imgur)",
+    "description": "Upload images to a HTTP GET endpoint (i.e. Imgur API)",
     "version": "0.1",
     "minimum_chrome_version": "20",
 
     "icons": {
         "16": "icon-16.png",
-        "48": "icon-48.png"
+        "48": "icon-48.png",
+        "128": "icon-128.png"
     },
 
     "permissions": [
